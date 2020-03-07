@@ -1,7 +1,6 @@
 /* Detail + Car*/
 
 //Detail父组件中 当前页面商品的数据
-
 export const SET_DATAS = 'SET_DATAS'
 
 //chose组件选择的颜色
@@ -24,7 +23,6 @@ export const RESET_CARLIST = 'RESET_CARLIST'
 
 //提交订单后重新设置购物车商品数量
 export const RESET_COUNT = 'RESET_COUNT'
-
 
 // 购物车里打钩的商品
 export const SET_SELECTEDLIST = 'SET_SELECTEDLIST'

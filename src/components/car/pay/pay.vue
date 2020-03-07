@@ -55,10 +55,8 @@ export default {
   },
 
   computed: {
-
     //所有商品列表
     carList () {
-
       return this.$store.state.detail.selectedList
     },
 
@@ -100,10 +98,8 @@ export default {
       } else { //提交了订单,数据清空
         alert('请勿重复提交订单')
       }
-
     }
   }
-
 }
 </script>
 
